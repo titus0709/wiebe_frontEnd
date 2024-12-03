@@ -76,7 +76,7 @@ function Design() {
               <p className="text-xl font-extrabold text-center my-2">Live Preview</p>
             </div>
 
-            <div className="flex gap-1 m-4 my-10">
+            <div className="md:flex gap-1 m-4 my-10">
               <div>
                 <p className="font-bold m-2 mx-5">Front</p>
 
@@ -128,7 +128,7 @@ function Design() {
             </div>
           </div>
 
-          <div className="h-[276px] w-auto mx-auto my-20">
+          <div className="h-[276px] w-auto mx-auto my-10 md:my-20">
             <Suspense fallback={<div>Loading</div>}>
               <CanvasModel
                 imageUrl={modifiedImage}
@@ -142,7 +142,7 @@ function Design() {
           </div>
         </div>
 
-        <div className="my-8 mx-4 flex gap-4 flex-col md:flex-row">
+        <div className="md:my-8 mx-4 flex gap-4 flex-col md:flex-row">
           <div>
             <p className="font-bold">Choose Color</p>
             <div>
